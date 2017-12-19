@@ -14,11 +14,7 @@ module Players
     ]
 
     def move(board)
-      if !board.taken?(5)
-        "5"
-      elsif
-      "#{[1,2,3,4,6,7,8,9].sample}"
-    end
+      "#{rand(1..9)}"
     end
   end
 end
