@@ -20,5 +20,4 @@ module Players
       #then choose corner spots
     end
   end
-  end
 end
