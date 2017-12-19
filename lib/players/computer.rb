@@ -16,7 +16,7 @@ module Players
     def move(board)
       move = rand(1..9)
       while board.taken?(move)
-      "#{rand(1..9)}"
+        move
       end
     end
   end
