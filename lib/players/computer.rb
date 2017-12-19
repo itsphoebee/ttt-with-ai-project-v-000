@@ -16,8 +16,9 @@ module Players
     def move(board)
       if !board.taken?(5)
         5.to_s
-      else
+      elsif
       [1,3,7,9].sample.to_s
+      
     end
   end
   end
