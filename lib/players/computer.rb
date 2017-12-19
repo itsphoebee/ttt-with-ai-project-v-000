@@ -14,6 +14,9 @@ module Players
     ]
 
     def move(board)
+      if !board.taken?(5)
+        5.to_s
+      else
       rand(1..9).to_s
     end
   end
