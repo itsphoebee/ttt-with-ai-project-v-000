@@ -26,10 +26,7 @@ def start
       when "0"
         game = Game.new(player_1=Players::Computer.new("X"), player_2=Players::Computer.new("O"), board=Board.new).play
       else
-        until user_input == "1" || user_input == "2" || user_input == "0"
-          puts "PLEASE ENTER 0, 1 or 2."
-          gets.chomp
-        end
+        exit
     end
     restart
   end
