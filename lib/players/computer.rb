@@ -20,4 +20,5 @@ module Players
       rand(1,2,3,4,6,7,8,9).to_s
     end
   end
+  end
 end
