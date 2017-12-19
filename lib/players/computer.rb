@@ -17,7 +17,7 @@ module Players
       if !board.taken?(5)      #choose middle spot if possible
         "5"
       else
-        [1,2,3,4,6,7,8,9].sample.to_s#then choose corner spots
+        [1,2,3,4,6,7,8,9].sample.to_s #then choose other spots
     end
   end
 end
