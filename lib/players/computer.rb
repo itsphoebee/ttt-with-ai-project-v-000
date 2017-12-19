@@ -18,7 +18,8 @@ module Players
         5.to_s
       elsif
       [1,3,7,9].sample.to_s
-      
+    else
+      [2,4,6,8].sample.to_s
     end
   end
   end
