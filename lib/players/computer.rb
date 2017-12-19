@@ -14,10 +14,10 @@ module Players
     ]
 
     def move(board)
-      corner = [1,3,7,9]
-      inner = [2,4,6,8]
-      !board.taken?(5) ? 5.to_s : corner.sample.to_s       #choose middle spot if possible
-      #then choose corner spots
+      if !board.taken?(5)      #choose middle spot if possible
+        "5"
+      else
+        [1,2,3,4,6,7,8,9].sample.to_s#then choose corner spots
     end
   end
 end
