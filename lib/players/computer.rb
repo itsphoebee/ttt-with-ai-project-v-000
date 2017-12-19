@@ -18,6 +18,7 @@ module Players
       while board.taken?(move)
         move
       end
+      move.to_s
     end
   end
 end
