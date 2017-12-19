@@ -18,6 +18,7 @@ module Players
         "5"
       else
         [1,2,3,4,6,7,8,9].sample.to_s #then choose other spots
+      end
     end
   end
 end
