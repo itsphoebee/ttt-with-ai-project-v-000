@@ -18,9 +18,7 @@ module Players
       inner = [2,4,6,8]
       if !board.taken?(5)         #choose middle spot if possible
         5.to_s
-        binding.pry
       else
-        binding.pry
       corner.sample.to_s       #then choose corner spots
     end
   end
