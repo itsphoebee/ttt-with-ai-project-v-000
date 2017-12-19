@@ -17,5 +17,6 @@ module Players
       if board.taken?(rand(1..9))
       "#{rand(1..9)}"
     end
+    end
   end
 end
